@@ -203,3 +203,23 @@ type="Submit">Pagar</button>
 <small id="passwordHelpBlock" class="form-text text-muted">
   Sua senha deve ter entre 8 e 20 caracteres, os quais devem ser letras e números, sem espaços, caracteres especiais ou emojis.
 </small>
+
+<div class="ui container">
+  <div></div>
+  <h2 class="ui center aligned header">Cadastro de Cliente</h2>
+  <form class="ui form">
+    <div class="field">
+      <label>Nome</label>
+      <input type="text" name="nome" placeholder="Nome Completo" maxlength="50">
+    </div>
+    <div class="field">
+      <label>Cpf</label>
+      <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" maxlength="14">
+    </div>
+    <div class="field">
+      <label>Cnpj</label>
+      <input type="text" name="cnpj" placeholder="xx.xxx.xxx/xxxx-xx" maxlength="18">
+    </div>
+    <div class="ui blue submit button">Salvar</div>
+  </form>
+</div>
