@@ -1,4 +1,3 @@
-# Angular-cadastro-1
 <hello name="{{ name }}"></hello>
 <p>
   Start working today :)
@@ -198,12 +197,11 @@ type="Submit">Pagar</button>
   </div>
   <button type="submit" class="btn btn-primary">Entrar</button>
  </form>
- <label for="inputPassword5">Senha</label>
+ <label for="inputPassword5">Senha</label><button>aqui<button>
 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 <small id="passwordHelpBlock" class="form-text text-muted">
   Sua senha deve ter entre 8 e 20 caracteres, os quais devem ser letras e números, sem espaços, caracteres especiais ou emojis.
 </small>
-
 <div class="ui container">
   <div></div>
   <h2 class="ui center aligned header">Cadastro de Cliente</h2>
@@ -220,6 +218,11 @@ type="Submit">Pagar</button>
       <label>Cnpj</label>
       <input type="text" name="cnpj" placeholder="xx.xxx.xxx/xxxx-xx" maxlength="18">
     </div>
-    <div class="ui blue submit button">Salvar</div>
-  </form>
+    </form>
 </div>
+<label for="inputPassword5">Senha</label>
+  <div class="ui blue submit button">Salvar</div> <button>aqui<button>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<small id="passwordHelpBlock" class="form-text text-muted">
+  Sua senha deve ter entre 8 e 20 caracteres, os quais devem ser letras e números, sem espaços, caracteres especiais ou emojis.
+    
